@@ -327,8 +327,8 @@ header .main-head .ico a i{
         width: 70%;
     }
     header .main-head nav{
-        position: absolute;
-        top: -700px;
+        position: fixed;
+        top: -1000px;
         left: 0;
         width: 100%;
         height: 100vh;
@@ -373,7 +373,7 @@ header .main-head .ico a i{
     .meetus-sec .main .lt h2{
         font-size: 40px;
         line-height: 48px;
-        height: 130px;
+        height: 200px;
         text-align: center;
     }
     .prod-sec ul.prod-list li{
@@ -390,6 +390,10 @@ header .main-head .ico a i{
     .client-sec .counter-part .main .lt .box{
         width: 48%;
         margin: 1%;
+    }
+    .client-sec .counter-part .main .lt .box p{
+        line-height: 20px;
+        margin-top: -10px;
     }
     .client-sec .counter-part .main .rt .inner-rt{
         padding: 20px 0;
