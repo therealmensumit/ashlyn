@@ -49,4 +49,8 @@ $(document).ready(function(){
           }
         ]
       });
+      $('.menu ').click(function(){
+        $('.menu .bar').toggleClass('toggle');
+        $('nav').toggleClass('togglenav');
+      });
 });
