@@ -1,12 +1,17 @@
 $(document).ready(function(){
-    // $('.main-slide').slick({
-    //     dots: true,
-    //     arrows: true,
-    //     slidesToShow: 1,
-    //     slidesToScroll: 1,
-    //     autoplay: true,
-    //     autoplaySpeed: 2000,
-    // });
+    $('.main-slide').slick({
+      dots: true,
+      autoplay: true,
+      fade: true,
+      // prevArrow: '<i class="fa fa-long-arrow-left"></i>',
+      // nextArrow: '<i class="fa fa-long-arrow-right"></i>',
+      infinite: true,
+      speed: 2000,
+      centerMode: false,
+      slidesToShow: 1,
+      centerPadding: 0,
+      pauseOnHover: false,
+    });
     var typed = new Typed('.typed-text', {
         strings: ["Meet us at Odisha Jewellery Show "],
         typeSpeed: 100,
