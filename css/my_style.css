@@ -15,6 +15,8 @@ a{
 }
 section{
     overflow: hidden;
+    /* float: left;
+    width: 100%; */
 }
 ul{
     list-style: none;
@@ -133,4 +135,148 @@ header .main-head .ico a i{
 }
 .banner-sec .ban-text button{
     margin-top: 10px;
+}
+.meetus-sec{
+    padding: 150px 0;
+    background: url(../image/Globe-vector.png) no-repeat;
+    background-position: left;
+}
+.meetus-sec .main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.meetus-sec .main .lt,
+.meetus-sec .main .rt{
+    width: 50%;
+}
+.meetus-sec .main .lt h2{
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 79px;
+    color: #143868;
+}
+.meetus-sec .main .rt .bothimg{
+    display: flex;
+}
+.meetus-sec .main .rt .bothimg .meetimg{
+    padding-left: 10px;
+}
+.meetus-sec .main .rt .bothimg .meetimg:first-child{
+    margin-left: 20px;
+}
+.prod-sec{
+    padding: 80px 0;
+    background: #F2F2F2;
+}
+.prod-sec h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: #333333;
+}
+.prod-sec .prod-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.prod-sec ul.prod-list li{
+    width: 23%;
+    margin: 1%;
+    padding: 1%;
+    transition: all .4s;
+}
+.prod-sec ul.prod-list li:hover{
+    box-shadow: 0 2px 4px #0000003b;
+}
+.prod-sec ul.prod-list li a figure{
+    width: 130px;
+    height: 130px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+.prod-sec ul.prod-list li figure img{
+    transition: all .4s;
+}
+.prod-sec ul.prod-list li:hover figure img{
+    transform: scale(1.2);
+}
+.prod-sec ul.prod-list li a h4{
+    text-align: center;
+    padding-top: 15px;
+    color: #333333;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 500;
+}
+.client-sec {
+    padding: 70px 0;
+}
+.client-sec h2{
+    color: #333333;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+    text-align: center;
+}
+.client-sec .client-slider{
+    display: flex;
+    margin-top: 20px;
+}
+.client-sec .client-slider .logs{
+    margin: 1%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.client-sec .counter-part{
+    margin-top: 50px;
+}
+.client-sec .counter-part .main{
+    display: flex;
+}
+.client-sec .counter-part .main .lt{
+    width: 20%;
+}
+.client-sec .counter-part .main .lt .box{
+    border: 1px solid #143868;
+    text-align: center;
+    padding: 30px 0;
+    margin-bottom: 30px;
+}
+.client-sec .counter-part .main .lt .box h3{
+    color: #F7941D;
+    font-size: 36px;
+    line-height: 54px;
+    font-weight: 600;
+}
+.client-sec .counter-part .main .lt .box p{
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: -13px;
+    color: #333333;
+    font-weight: 400;
+}
+.client-sec .counter-part .main .rt{
+    width: 80%;
+}
+.client-sec .counter-part .main .rt .inner-rt{
+    padding: 20px 50px;
+}
+.client-sec .counter-part .main .rt .inner-rt p{
+    text-align: center;
+    color: #333333;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+/* mobile responsive */
+@media (max-width: 767px){
+    .containor{
+        width: 90%;
+    }
 }
