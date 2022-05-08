@@ -252,6 +252,9 @@ header .main-head .ico a i{
     line-height: 54px;
     font-weight: 600;
 }
+.client-sec .counter-part .main .lt .box h3 b{
+    font-weight: 600;
+}
 .client-sec .counter-part .main .lt .box p{
     font-size: 18px;
     line-height: 27px;
